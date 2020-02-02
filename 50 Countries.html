@@ -2,7 +2,6 @@
 <script src="https://www.amcharts.com/lib/3/maps/js/worldHigh.js" type="text/javascript"></script>
 <script src="https://www.amcharts.com/lib/3/themes/dark.js" type="text/javascript"></script>
 <div id="mapdiv" style="width: 1000px; height: 450px;"></div>
-
 <script type="text/javascript">
 var map = AmCharts.makeChart("mapdiv",{
 type: "map",
@@ -12,7 +11,7 @@ panEventsEnabled : true,
 backgroundColor : "#FFFFFF",
 backgroundAlpha : 1,
 zoomControl: {
-zoomControlEnabled : true
+zoomControlEnabled : false
 },
 dataProvider : {
 map : "worldHigh",
@@ -220,10 +219,10 @@ areas :
 areasSettings : {
 autoZoom : true,
 color : "#FFFFFF",
-colorSolid : "#FFD391",
-selectedColor : "#FFD391",
+colorSolid : "#84B8F0",
+selectedColor : "#84B8F0",
 outlineColor : "#000000",
-rollOverColor : "#EB9292",
+rollOverColor : "#F2BFBF",
 rollOverOutlineColor : "#000000"
 }
 });
